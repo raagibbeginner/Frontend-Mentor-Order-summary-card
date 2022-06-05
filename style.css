@@ -1,0 +1,103 @@
+:root {
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+  * {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+  }
+
+  /* Card Styling */
+
+  .card {
+    background: #fff;
+    width: 28.125rem;
+    height: 41.75rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 30px 0 rgba(184, 191, 211, 0.205);
+  }
+
+  .wrapper0 {
+    padding: 0 3em;
+  }
+
+  h2 {
+    color: #223050;
+    padding: 0.7em 0 0 0;
+    font-weight: 900;
+  }
+
+  p {
+    color: #777F92;
+    word-wrap: break-word;
+    font-weight: 500;
+  }
+
+  img {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .wrapper1 {
+    display: flex;
+    align-items: center;
+    background: #F8F9FE;
+    padding: 1.5em 1.3em;
+    border-radius: 10px;
+  }
+
+  .wrapper2 {
+    padding: 0 1em;
+  }
+
+  .wrapper2 span:first-child {
+    font-weight: 900;
+  }
+
+  .wrapper2 span:last-child {
+    font-weight: 400;
+    color: #777F92;
+  }
+
+  a {
+    margin-left: auto;
+    color: #4f49a1;
+    font-weight: 700;
+  }
+
+  button {
+      cursor: pointer;
+  } 
+
+  .btn-1 {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1.2em 8.7em;
+    margin: 2.5em 0;
+    box-shadow: 0 10px 15px 0 #c1bee4dc
+  }
+
+  .btn-2 {
+    all: initial;
+    font-family: inherit;
+    color: #6c758a;
+    font-weight: 700;
+  }
+
+ 
